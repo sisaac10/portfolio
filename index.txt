@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1>Welcome to my portfolio site</h1>
+  <br>
+<p>Hi everyone, my name is Sam and I use this site to post academic and professional work. I'll also use this site to post about other areas of interest.</p>
+  
+  <p>I posted some songs down below, so you can listen to some music while you look over this site.</p>
+  <br>
+  <iframe width="25%" height="150" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/6406960&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+  <br>
+  <br>
+  <iframe width="25%" height="150" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/66440857&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+  <br>
+  <p>Other areas of interest.</p>
+  <p>Ok....so the new Thor movie looks pretty amazing</p>
+  <br>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/SfayCqL6Gmw" frameborder="0" allowfullscreen></iframe>
+  <br>
+  
+  </body>
+</html>

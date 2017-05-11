@@ -11760,7 +11760,7 @@ in separate files.</p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[9]:</div>
+<div class="prompt input_prompt">In&nbsp;[1]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
@@ -11826,8 +11826,6 @@ in separate files.</p>
         <span class="n">hw1</span> <span class="o">=</span> <span class="n">hw</span><span class="o">/</span><span class="mi">6</span>
         <span class="n">hpc</span> <span class="o">=</span> <span class="p">((</span><span class="n">hw1</span> <span class="o">*</span> <span class="o">.</span><span class="mi">01</span><span class="p">)</span> <span class="o">*</span> <span class="mi">20</span><span class="p">)</span>
         <span class="n">arr1</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="mi">1</span><span class="p">]</span> <span class="o">=</span> <span class="nb">round</span><span class="p">(</span><span class="n">hpc</span><span class="p">,</span><span class="mi">2</span><span class="p">)</span>
-        <span class="c1">#print(hw, round(hw1,2), round(hpc,2))</span>
-        <span class="c1">#print(grades[i][1:7])</span>
         
         
                                                     <span class="c1">#retrieve and average lab scores</span>
@@ -11835,33 +11833,27 @@ in separate files.</p>
         <span class="n">labs1</span> <span class="o">=</span> <span class="n">labs</span><span class="o">/</span><span class="mi">11</span>
         <span class="n">lpc</span> <span class="o">=</span> <span class="p">((</span><span class="n">labs1</span> <span class="o">*</span> <span class="o">.</span><span class="mi">01</span><span class="p">)</span> <span class="o">*</span> <span class="mi">30</span><span class="p">)</span>
         <span class="n">arr1</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="mi">2</span><span class="p">]</span> <span class="o">=</span> <span class="nb">round</span><span class="p">(</span><span class="n">lpc</span><span class="p">,</span><span class="mi">2</span><span class="p">)</span>
-        <span class="c1">#print(labs, round(labs1,2), round(lpc,2))</span>
-        <span class="c1">#print(grades[i][7:18])</span>
                 
                                                 <span class="c1">#retrieve final project score</span>
         <span class="n">final</span> <span class="o">=</span> <span class="n">grades</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="mi">18</span><span class="p">]</span>
         <span class="n">fpc</span> <span class="o">=</span> <span class="p">((</span><span class="n">final</span> <span class="o">*</span> <span class="o">.</span><span class="mi">01</span><span class="p">)</span> <span class="o">*</span> <span class="mi">10</span><span class="p">)</span>
         <span class="n">arr1</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="mi">3</span><span class="p">]</span> <span class="o">=</span> <span class="n">fpc</span>
-        <span class="c1">#print(final, fpc)</span>
         
                                                 <span class="c1">#retrieve midterm 1 score</span>
         <span class="n">midT1</span> <span class="o">=</span> <span class="n">grades</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="mi">19</span><span class="p">]</span>
         <span class="n">mpc</span> <span class="o">=</span> <span class="p">((</span><span class="n">midT1</span> <span class="o">*</span> <span class="o">.</span><span class="mi">01</span><span class="p">)</span> <span class="o">*</span> <span class="mi">10</span><span class="p">)</span>
         <span class="n">arr1</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="mi">4</span><span class="p">]</span> <span class="o">=</span> <span class="n">mpc</span>
-        <span class="c1">#print(midT1, mpc)</span>
         
                                                 <span class="c1">#retrieve and average quiz scores</span>
         <span class="n">qz</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">sum</span><span class="p">(</span><span class="n">grades</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="mi">20</span><span class="p">:</span><span class="mi">29</span><span class="p">])</span>
         <span class="n">qz1</span> <span class="o">=</span> <span class="n">qz</span><span class="o">/</span><span class="mi">9</span>
         <span class="n">qpc</span> <span class="o">=</span> <span class="p">((</span><span class="n">qz1</span> <span class="o">*</span> <span class="o">.</span><span class="mi">1</span><span class="p">)</span> <span class="o">*</span> <span class="mi">15</span><span class="p">)</span>
         <span class="n">arr1</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="mi">5</span><span class="p">]</span> <span class="o">=</span> <span class="nb">round</span><span class="p">(</span><span class="n">qpc</span><span class="p">,</span><span class="mi">2</span><span class="p">)</span>
-        <span class="c1">#print(qz, round(qz1,2), round(qpc,2))</span>
-        <span class="c1">#print(grades[i][20:29])</span>
+
                                                 <span class="c1">#retrieve midterm 2 score</span>
         <span class="n">midT2</span> <span class="o">=</span> <span class="n">grades</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="mi">29</span><span class="p">]</span>
         <span class="n">mpc2</span> <span class="o">=</span> <span class="p">((</span><span class="n">midT2</span> <span class="o">*</span> <span class="o">.</span><span class="mi">01</span><span class="p">)</span> <span class="o">*</span> <span class="mi">15</span><span class="p">)</span>
         <span class="n">arr1</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="mi">6</span><span class="p">]</span> <span class="o">=</span> <span class="n">mpc2</span>
-        <span class="c1">#print(midT2, mpc2)</span>
         
                                                 <span class="c1">#compile into a total score</span>
         <span class="n">total</span> <span class="o">=</span> <span class="p">(</span><span class="n">hpc</span> <span class="o">+</span> <span class="n">lpc</span> <span class="o">+</span> <span class="n">fpc</span> <span class="o">+</span> <span class="n">mpc</span> <span class="o">+</span> <span class="n">qpc</span> <span class="o">+</span> <span class="n">mpc2</span><span class="p">)</span>

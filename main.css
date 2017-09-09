@@ -26,3 +26,8 @@ color:orange;}
 
 a:active  {
 color:black;}
+
+p.three{
+text-align: left;
+background-color: dodgerblue;
+color: white;}

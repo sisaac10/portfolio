@@ -3,7 +3,7 @@ background-image: url("coffee.jpg");
 }
 
 h1  {
-background-color: darkcyan;
+background-color: dodgerblue;
 text-align: center;}
 
 p {
@@ -15,7 +15,7 @@ p.two{
 text-align: left;}
 
 a:link  {
-color:darkcyan;
+color:dodgerblue;
 text-decoration: underline;}
 
 a:visited  {

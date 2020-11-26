@@ -12,3 +12,8 @@ font-size: 20px;
 br.small {
   line-height: 5px;
 }
+
+
+br.medium {
+  line-height: 10px;
+}
